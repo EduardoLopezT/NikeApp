@@ -35,7 +35,7 @@ const ProductDetailsScreen = () => {
           showsHorizontalScrollIndicator={false}
           pagingEnabled
         />
-        <View style={{ padding: 20 }}>
+        <View style={{ padding: 20, paddingBottom: 65 }}>
           <Text style={styles.title}>{product.name}</Text>
           <Text style={styles.price}>${product.price}</Text>
           <Text style={styles.description}>{product.description}</Text>
