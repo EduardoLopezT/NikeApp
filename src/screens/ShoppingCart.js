@@ -52,6 +52,7 @@ const styles = StyleSheet.create({
     paddingTop: 10,
     borderColor: "gainsboro",
     borderTopWidth: 1,
+    paddingBottom: 65,
   },
   row: {
     flexDirection: "row",
